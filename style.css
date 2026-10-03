@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f3f6fa;
+    font-family: Arial, sans-serif;
+}
+
+/* HEADER */
+
+header {
+    background-color: #101827;
+    padding: 10px ;
+}
+
+h1 {
+    color: white;
+    font-size: 46px;
+}
+
+h1 span {
+    color: #00d9ff;
+}
+
+/* MENU */
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+ a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* CONTENEUR DES CLASSES */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 50px;
+}
+
+/* CHAQUE CLASSE */
+
+.classe {
+    width: 250px;
+    height: 150px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+    
+}
+
+.classe a {
+    text-decoration: none;
+    color: #101827;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
