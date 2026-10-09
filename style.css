@@ -42,28 +42,90 @@ nav {
 
 /* CONTENEUR DES CLASSES */
 
-main {
-    display: flex;
+main{
+     display: flex;
     flex-wrap: wrap;
     gap: 25px;
-    padding: 50px;
+    padding: 25px
+    
 }
 
 /* CHAQUE CLASSE */
 
 .classe {
-    width: 250px;
+    width: 200px;
     height: 150px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
     
 }
 
-.classe a {
+.classe1{
+    width: 200px;
+    height: 150px;
+    background-color: rgb(25, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+
+.classe2{
+    width: 200px;
+    height: 150px;
+    background-color: yellow;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+
+.classe3{
+     width: 200px;
+    height: 150px;
+    background-color: red;
+    border-radius: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.12);
+}
+
+.classe1 a {
     text-decoration: none;
     color: #101827;
     font-size: 30px;
     font-weight: bold;
     
+}
+
+.classe2 a {
+    text-decoration: none;
+    color: #101827;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.classe3 a{
+    text-decoration: none;
+    color: #101827;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.elementaire{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #00d9ff;
+    justify-content: space-around;
+}
+
+.cem{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:  rgb(223, 221, 77);
+     justify-content: space-around;
+}
+
+.lycee{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(143, 31, 31);
+     justify-content: space-around;
 }
